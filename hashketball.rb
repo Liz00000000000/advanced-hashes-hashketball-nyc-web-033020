@@ -152,12 +152,10 @@ end
 def player_numbers(team)
   array = [ ]
   game_hash.each do |location, players |
-    players[:players].each do |player|
       if players[:team] == team
         players[:team][:players][:number].each do | num|
           array << num
         end
-      end
       return array
     end
   end
