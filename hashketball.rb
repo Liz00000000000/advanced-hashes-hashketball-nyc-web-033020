@@ -166,7 +166,7 @@ def player_stats(name)
  hash = { }
   game_hash.each do |location, team |
       team[:players].each do |players|
-  #binding.pry
+  binding.pry
       if players[:player_name] == name
          hash[:assists] = players[:assists]
            hash[:blocks] = players[:blocks]
