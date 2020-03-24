@@ -163,15 +163,14 @@ def player_numbers(team)
 end
 
 def player_stats(name)
- hash = { }
   game_hash.each do |location, team |
       team[:players].each do |players|
   #binding.pry
       if players[:player_name] == name
-         hash[:assists] = players[:assists]
-           hash[:blocks] = players[:blocks]
-           hash[:number] = players[:number]
-           hash[:points] = players[:points]
+         hash = {:assists => players[:assists],
+           :blocks => players[:blocks],
+           :number => players[:number],
+           :points => players[:points]
            hash[:rebounds] = players[:rebounds]
            hahs[:shoe] = players[:shoe]
            hahs[:slam_dunks] = players[:slam_dunks]
