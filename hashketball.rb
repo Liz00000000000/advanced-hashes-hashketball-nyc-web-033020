@@ -190,6 +190,6 @@ def big_shoe_rebounds
      size = player[:rebounds]
      array << size
    end
-   return array.min
+   return array.max
  end
 end
