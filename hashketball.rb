@@ -173,8 +173,8 @@ def player_stats(name)
            :points => players[:points],
            :rebounds => players[:rebounds],
            :shoe => players[:shoe],
-           :slam_dunks = players[:slam_dunks]
-           hash[:steals] = players[:steals]
+           :slam_dunks => players[:slam_dunks],
+           :steals] = players[:steals]}
       end
     return hash
     end
