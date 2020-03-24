@@ -186,10 +186,10 @@ end
 def big_shoe_rebounds
   array = [ ]
  game_hash.each do |one, two|
-   two.each do |player|
+   two[:players].each do |player|
      size = player[:shoe]
      array << size
    end
-   return array.max 
+   return array.max
  end
 end
