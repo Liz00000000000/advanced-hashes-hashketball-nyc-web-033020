@@ -177,7 +177,6 @@ def player_stats(name)
            :slam_dunks => players[:slam_dunks],
            :steals => players[:steals]}
       end
-    return hash
     end
   end
 end
