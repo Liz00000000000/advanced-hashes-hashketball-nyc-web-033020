@@ -174,7 +174,7 @@ def player_stats(name)
            :rebounds => players[:rebounds],
            :shoe => players[:shoe],
            :slam_dunks => players[:slam_dunks],
-           :steals] = players[:steals]}
+           :steals => players[:steals]}
       end
     return hash
     end
