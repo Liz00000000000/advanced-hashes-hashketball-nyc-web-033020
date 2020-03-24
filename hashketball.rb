@@ -170,9 +170,9 @@ def player_stats(name)
          hash = {:assists => players[:assists],
            :blocks => players[:blocks],
            :number => players[:number],
-           :points => players[:points]
-           hash[:rebounds] = players[:rebounds]
-           hahs[:shoe] = players[:shoe]
+           :points => players[:points],
+           :rebounds => players[:rebounds],
+           :shoe => players[:shoe],
            hahs[:slam_dunks] = players[:slam_dunks]
            hash[:steals] = players[:steals]
       end
