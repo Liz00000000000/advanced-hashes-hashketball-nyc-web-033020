@@ -188,6 +188,6 @@ def big_shoe_rebounds
  game_hash.each do |one, two|
    two.each do |player|
      size = player[:shoe]
-   end 
+   end
  end 
 end
