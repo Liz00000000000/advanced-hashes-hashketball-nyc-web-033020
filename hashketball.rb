@@ -155,7 +155,7 @@ def player_numbers(team)
     players[:players].each do |player|
       if player[:team] == team
         player[:team][:number].each do | num|
-          array << points
+          array << num
         end
       end
       return array
