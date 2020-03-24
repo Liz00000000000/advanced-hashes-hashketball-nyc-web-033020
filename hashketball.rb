@@ -167,6 +167,7 @@ def player_stats(name)
       team[:players].each do |players|
   #binding.pry
       if players[:player_name] == name
+        
          hash = {:assists => players[:assists],
            :blocks => players[:blocks],
            :number => players[:number],
